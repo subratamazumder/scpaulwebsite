@@ -1,0 +1,1 @@
+aws s3 cp index.html s3://scpauljewellers.com/ --exclude "*.git*" --exclude ".DS*" --profile subrata-amazon
