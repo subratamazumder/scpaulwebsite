@@ -4,7 +4,7 @@
 scpaulwebsite$ ./deploy.sh
 ```
 
-## Other Utility Commands for reference
+## Other Utility Commands
 ``` bash
 aws s3 sync ./ s3://scpauljewellers.com/ --acl public-read --exclude ".git*" --exclude ".DS*" --profile subrata-amazon
 
