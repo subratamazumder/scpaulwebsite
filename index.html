@@ -117,7 +117,7 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class="container">
-                            <img src="https://d3uxjh2kr4vhnj.cloudfront.net/images/banner/scp-covid19.jpg" style="width: 100%;height: auto;" />
+                            <img src="./images/banner/scp-covid19.jpg" style="width: 100%;height: auto;" />
                         </div>
                     </div>
                     <div class="item">
@@ -364,7 +364,7 @@
 
 
                 <div class="clearfix"></div>
-
+<!--  
                 <div class="text-center">
                     <ul class="templatemo-project-gallery">
                         <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic">
@@ -658,12 +658,12 @@
                         </li>
 
 
-                    </ul><!-- /.gallery -->
+                    </ul>
                 </div>
-
+-->
                 <div class="clearfix"></div>
                 <div class="row text-center">
-                    <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">COMING SOON</a>
+                    <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">COMING SOON, VISIT SHOP FOR LATEST DESIGN!!</a>
                 </div>
             </div><!-- /.container -->
         </div> <!-- /.templatemo-portfolio -->
@@ -790,16 +790,17 @@
                     </div>
 
                     <div class="col-md-8">
-                        <div class="templatemo-contact-map" id="map-canvas"> </div>
-                        <div class="clearfix"></div>
-                        <i>You can find us on 2, Canninghum Road <span class="txt_orange">Naihati</span> in West Bengal, India.</i>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.73022098869615!2d88.4159123533569!3d22.88814595837977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x803624c4dcd2f1c4!2sS%20C%20Paul%20Jewellers!5e0!3m2!1sen!2sin!4v1620844047804!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <!-- <div class="templatemo-contact-map" id="map-canvas"> </div>
+                        <div class="clearfix"></div> -->
+                        <!-- <i>You can find us on 2, Canninghum Road <span class="txt_orange">Naihati</span> in West Bengal, India.</i> -->
                     </div>
                     <div class="col-md-4 contact_right">
-                        <p>Please do contact us for any kind of enquiry on design, price and availability either by phone call or below messaging application</p>
+                        <p>Please do contact us for any kind of enquiry on design, price and availability via phone call</p>
                         <p><img src="images/location.png" alt="icon 1" /> 2, Canninghum Road, Naihati, West Bengal-743165, India</p>
-                        <p><img src="images/phone1.png" alt="icon 2" /> +91(0)3325812579</p>
+                        <p><img src="images/phone1.png" alt="icon 2" /> +91(0)3325812579, +91(0)3325023714</p>
                         <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">www.scpauljewellers.com</span></a></p>
-                        <form class="form-horizontal" action="#">
+                        <!-- <form class="form-horizontal" action="#">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your Name..." maxlength="40" id="name" />
                             </div>
@@ -810,7 +811,7 @@
                                 <textarea class="form-control" style="height: 130px;" placeholder="Write down your message..." id="message"></textarea>
                             </div>
                             <button type="submit" class="btn btn-orange pull-right" id="sendMessage">SEND</button>
-                        </form>
+                        </form> -->
 
                     </div>
                 </div><!-- /.row -->
@@ -923,7 +924,7 @@
                             <div class="height30"></div>
                         </div>
                         <div class="footer_bottom_content">
-                            <span id="footer-line">Copyright © 2019 <a href="#">SC Paul Jewellers</a></span>
+                            <span id="footer-line">Copyright © <span id="copyright-year"></span> <a href="#">SC Paul Jewellers</a></span>
                         </div>
                         <div class="footer_bottom_content">
                             <span id="footer-line"><a href="privacy-policy.html">Privacy Policy</a></span>
@@ -935,7 +936,7 @@
                 </div>
             </div>
         </div>
-
+        <script>document.getElementById("copyright-year").innerHTML = (new Date().getFullYear());</script> 
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/stickUp.min.js" type="text/javascript"></script>
